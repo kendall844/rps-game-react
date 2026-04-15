@@ -40,3 +40,6 @@ A challenge faced was I did not reset the game state at the beginning of each ro
 
 This interactive game helped expand my knowledge on how to properly handle React, states, and effects. It also is furthering my knowledge on JavaScript, I am becoming more confident with the functions and logic. 
 
+## Video Demo
+https://uncg-my.sharepoint.com/:v:/r/personal/kmwilliford_uncg_edu1/Documents/Recordings/Meeting%20with%20Kendall%20Williford-20260414_220941-Meeting%20Recording.mp4?csf=1&web=1&e=7Xnf5L&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
