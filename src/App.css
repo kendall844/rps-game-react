@@ -2,28 +2,35 @@ body{
     margin: 0;
     font-family: Arial;
     text-align: center;
-    background-color: white;
+    background-color: rgb(250, 157, 220);
 }
 
 .app{
-    color: black;
+    color: rgb(216, 25, 155);
     margin-top: 20px;
 }
 .app, h1{
-    color: black;
+    color: rgb(216, 25, 155);
 }
 
 img{
     width: 100px;
     margin: 10px;
     cursor: pointer;
+    border: 2px solid rgb(216, 25, 155);
 }
 img:hover{
     transform: scale(1.3);
+
 }
 
 h2{
     margin-top: 20px;
     font-size: 20pt;
-    color: black;
+    color: rgb(216, 25, 155);
+}
+
+#resetBtn{
+    color: rgb(216, 25, 155);
+    background-color: rgb(250, 157, 220);
 }
