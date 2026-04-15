@@ -1,8 +1,12 @@
 import { useState, useEffect } from "react";
 
-function ScoreBoard({ result }) {
+function ScoreBoard({ result, resetKey }) {
     const [score, setScore] = useState({ wins: 0, losses: 0, ties: 0 });
 
+    useEffect(() => {
+        setScore({wins:0, losses:0, ties:0});
+    }, [resetKey]);
+    
     useEffect(() => {
         if (!result) {
             return;

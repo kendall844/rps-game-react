@@ -11,14 +11,21 @@ function App() {
     const [playerChoice, setPlayerChoice] = useState(null);
     const [computerChoice, setCompChoice] = useState(null);
     const [result, setResult] = useState("");
+    const [resetKey, setResetKey] = useState(0);
+    
 
-      const handlePlayerChoice = (choice) => {
+    const handlePlayerChoice = (choice) => {
         setPlayerChoice(choice);
         setCompChoice(null);
         setResult("");
     };
 
-
+    const resetAll = () => {
+        setPlayerChoice(null);
+        setCompChoice(null);
+        setResult("");
+        setResetKey(prev => prev + 1);
+    };
 
     return (
         <div className="app">
@@ -29,9 +36,9 @@ function App() {
 
             <ResultDisplay playerChoice={playerChoice} computerChoice={computerChoice} result={result} setResult={setResult} />
 
-            <ScoreBoard result={result}/>
+            <ScoreBoard result={result} resetKey={resetKey}/>
 
-            <ResetButton setPlayerChoice={setPlayerChoice} setCompChoice={setCompChoice} setResult={setResult}/>
+            <ResetButton resetGame={resetAll} />
 
         </div>
     );
